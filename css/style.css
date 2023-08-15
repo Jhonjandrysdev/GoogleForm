@@ -1,0 +1,188 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.padre{
+    width: 100%;
+    display: flex;
+    height: 750px;
+}
+.hijo{
+    width: 50%;
+    position: relative;
+}
+.hijo2{
+    width: 50%;
+    position: relative;
+}
+.padre .hijo img{
+    width: 65%;
+}
+.padre .hijo .frase{
+    color: #0A3749;
+    width: 41%;
+    font-size: 33px;
+    position: absolute;
+    margin: -198px 0 0 100px;
+}
+.padre .hijo .frase1{
+    width: 70%;
+    margin-top: 40px;
+}
+.padre .hijo .frase1 .frase1-1{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.padre .hijo .frase1 .frase1-2{
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.padre .hijo .frase1 .frase1-2 a{
+    color: blue;
+}
+.imagenes{
+    display: flex;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 100px;
+    align-items: center;
+}
+.imagenes img{
+    width: 30%;
+}
+.hijo2 button img{
+    width: 10%;
+}
+@keyframes animacionboton {
+    from{ transform: translateY(-100%);}
+    to{transform: translateY(0%);}
+}
+.hijo2 .animacionboton{
+    animation-name: animacionboton;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+.hijo2 button{
+    color: black;
+    display: flex;
+    width: 60%;
+    gap: 40px;
+    border-radius: 9px;
+    align-items: center;
+    /* padding: 0px 0px 0px 0px; */
+    justify-content: center;
+    background-color: #FFE061;
+    margin: 60px 0px 0px 130px;
+}
+.hijo2 button p{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+.hijo2 .phrase{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.hijo2 .barra1{
+    width: 40%;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+.hijo2 .barra2{
+    width: 40%;
+    position: relative;
+    margin-right: 37px;
+    border: 1px solid gray;
+    margin-top: 29px;
+}
+.inputs{
+    width: 100%;
+    height: auto;
+    margin-left: -35px;
+    margin-top: 40px;
+}
+.inputs2{
+    display: flex;
+    justify-content: center;
+}
+.inputs2 label{
+    align-self: start;
+    font-size: 15px;
+    position: relative;
+    color: #0A3749;
+    background-color: white;
+    /* padding: 0px 0px; */
+    top: -10px;
+    left: 90px;
+}
+.inputs2 #inputs1{
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+#inputemail{
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+#inputpwd{
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+.inputs input{
+    padding: 10px 34px 10px 10px;
+}
+.inputs .inputs2-1{
+    width: 67%;
+    margin: 50px 0px 0px 134px;
+    position: relative;
+}
+.inputs2-1 label{
+    font-size: 15px;
+    position: relative;
+    color: #0A3749;
+    top: 11px;
+    left: 20px;
+    background-color: white;
+}
+.inputs .inputs2-1 .hijoinput{
+    width: 95%;
+}
+
+.terminos{
+    position: absolute;
+    top: 530px;
+    left: 150px;
+}
+
+.inputs #terminos label{
+    color: black;
+    font-size: 17px;
+}
+.inputs .terminos label a{
+    color: blue;
+}
+.hijo2 .buttonfinal{
+    margin-left: 155px;
+    background-color:  #FFE061;
+    width: 65%;
+    margin-top: 90px;
+}
+.hijo2 .buttonfinal p{
+    color: #0A3749;
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+}
